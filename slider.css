@@ -1,0 +1,55 @@
+img{
+    width: 70%;
+    height: 70vh;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+#dragon1{
+    display: block;
+}
+#dragon2{
+    display: none;
+}
+#dragon3{
+    display: none;
+}
+button{
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 3;
+}
+#forward{
+    position: absolute;
+    left: 90%;
+}
+#backward{
+    position: absolute;
+    right: 90%;
+}
+.indicator-container{
+    position: absolute;
+    top: 90%;
+    left:45%;
+}
+.indicator{
+    height: 15px;
+    width: 15px;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 5px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#indi1{
+    background-color: rgb(79, 79, 190);
+}
